@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+<header class="w3-container w3-purple">
+    <h1>Hangman</h1>
+</header>
+<main class="w3-container constrain">
+    <div class="w3-row">
+        <div class="w3-half w3-input">
+            <p id="guesses"><strong>You have 10 guesses left!</strong></p>
+            <p><strong>These are all terms related to investing in real estate.</strong></p>
+            <p id="game">&nbsp;</p>
+
+            <form name="form1">
+                <label class ="w3-label ">Input a letter here, then click guess
+                    <input name="letter" id="letter" type="text" size="3" maxlength="3"> </label>
+                <input type="button" name="submit" id="submit" value="Guess!"></form>
+        </div>
+        <div class="w3-half">
+
+            <img id="hangimg" src="images/img00.png" class="w3-border w3-padding" alt="hangman stick figure">
+        </div>
+    </div>
+</main>
+<script src="myscripts.js"></script>
+</body>
+</html>
